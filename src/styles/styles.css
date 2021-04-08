@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+font-family: 'Raanan regular';
+font-style: normal;
+font-weight: normal;
+src: local('Raanan regular'), url('Raanan-regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Raanan Round';
+font-style: normal;
+font-weight: normal;
+src: local('Raanan Round'), url('Raanan-Round.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Raanan Light';
+font-style: normal;
+font-weight: normal;
+src: local('Raanan Light'), url('Raanan-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Raanan Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
+}
+
+.raanan-reg {
+  font-family: 'Raanan regular';
+}
+
+.nav-box {
+  font-family: 'Raanan regular';
+  width: 138px;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: background-color .5s;
+}
+
+.nav-box:hover {
+  background-color: #A8B5B9;
+}
+
+.nav-box-selected {
+  font-family: 'Raanan regular';
+  width: 138px;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #E4BA41;
+  transition: background-color .5s;
+}
+
+.nav-box-selected:hover {
+  background-color: #A8B5B9;
+}
