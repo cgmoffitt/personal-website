@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @font-face {
+  font-family:"stix-two-math";
+  src:url("https://use.typekit.net/af/a45639/00000000000000007735caf7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/a45639/00000000000000007735caf7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/a45639/00000000000000007735caf7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+  }
+
+@font-face {
 font-family: 'Raanan regular';
 font-style: normal;
 font-weight: normal;
@@ -37,6 +43,14 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
   font-family: 'Raanan regular';
 }
 
+.raanan-bold {
+  font-family: 'Raanan Bold';
+}
+
+.stix-reg { 
+  font-family: "stix-two-math",serif; 
+}
+
 .nav-box {
   font-family: 'Raanan regular';
   width: 138px;
@@ -65,3 +79,17 @@ src: local('Raanan Bold'), url('Raanan-Bold.woff') format('woff');
 .nav-box-selected:hover {
   background-color: #A8B5B9;
 }
+
+.background {
+  background-color: #272D35;
+}
+
+.yellow-theme {
+  color:#E4BA41
+}
+
+.grey-theme {
+  color: #A8B5B9
+}
+
+
